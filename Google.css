@@ -1,0 +1,142 @@
+body{
+    background-color:rgba(32,33,36,1);
+    font-size: 14px;
+    font-family: arial,sans-serif;
+    color: white;
+    margin: 0px;
+    height: 100vh;
+    max-height: 100vh;
+    overflow: hidden;
+    
+}
+
+nav{
+    align-items: center;
+    height: 48px;
+    width: auto;
+    padding: 6px;
+    justify-content: flex-end;
+    align-content: center;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    
+}
+
+.logo{
+    padding: 6px;
+}
+
+div{
+    display: flex;
+}
+
+#text:hover{
+    text-decoration: underline white;
+    cursor: pointer;
+    
+}
+
+#profile:hover{
+    border-radius:50%;
+    background-color: rgba(255, 255, 255, 0.15);
+}
+
+#Google-Logo{
+    min-height: 176px;
+    max-height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+
+}
+
+#align{
+    display: flex;
+    justify-content: center;
+    background-color: transparent;
+    padding:26px 0px 29px 0px   ;
+}
+
+#input{
+    all: unset;
+    height: 34px;
+    width: 443px;
+    color: white;
+    font-family: 'Arial',' sans-serif';
+}
+
+.icons-20px{
+    width: 20px;
+    height: 20px;
+    padding: 0px 13px 0px 0px;
+}
+
+.icon24-mic{
+    width: 24px;
+    height: 24px;
+    padding: 0px 8px 0px 12px ;
+}
+
+.icon24-lens{
+    width: 24px;
+    height: 24px;
+    padding: 0px 0px 0px 8px ;
+}
+
+.icon24-shift {
+    display: flex;
+    height: 44px;
+    align-items: center;
+}
+
+#search-content{
+    display: flex;
+    align-items: center;
+    border: 1px solid;
+    border-color:#5f6368;
+    border-radius: 24px;
+    width: 552px;
+    height: 42px;
+    padding: 0px 14px 0px 14px ;
+    min-width: 100px; 
+}
+
+#search-content:hover{
+    box-shadow: -.5px 1px 6px black ;
+    background-color: rgba(225, 225, 225,.09);
+    border-style: unset;
+}
+
+#fun-box {
+    display: flex;
+    height: 36px;
+    width: 277.9px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+}
+
+#border-funbox{
+    display: flex;
+    justify-content: center;
+}
+
+.button-style{
+    background-color: #303134;
+    border: 1px solid #303134;
+    border-radius: 4px;
+    color: #e8eaed;
+    font-family: arial,sans-serif;
+    font-size: 14px;
+    padding: 0 16px;
+    line-height: 27px;
+    height: 36px;
+    min-width: 54px;
+    text-align: center;
+    cursor: pointer;
+    user-select: none;
+}
+    
+
